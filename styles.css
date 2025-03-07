@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    background-color: #F5F5DC;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: contents; /* Use flexbox to center content vertically */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh; /* Ensure full viewport height */
+}
+.jumbotron{
+    text-align: center;
+    background-color: #F5F5DC;
+    padding-top: 0px;
+    color: #333;
+}
+
+.register{
+    
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    padding:20px;
+}
+
+
+
+
+.container-sm h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+h2{
+    width: 50%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin:0 auto;
+    text-align:center;
+    text-decoration: underline 2px solid #333 ;
+    
+}
+h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding:30px 
+    
+}
+p{
+  font-size: 20px;
+  padding: 10px;  
+}
+
+
+
+div[type='db']{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+    
+
+}
+
+div[type='footer']{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+    
+
+}
+
+nav{
+  font-weight: bold;
+  padding:0;
+  background-color: #7d5c31;
+  margin-bottom: 40px;
+  
+}
+li[class="nav-item"]{
+    font-weight: bold;
+}
+
+.navbar-fixed-bottom{
+    
+    padding:40px;
+
+}
+.navbar-expand-lg{
+    border-top:2px solid #36454F ;
+    border-bottom:2px solid #36454F;
+}
+
+
+.form-label{
+
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form-text{
+
+    font-weight: bold;
+    font-size: 8px;
+}
+
+.register{
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 50%;
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.login{
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+
+br{
+    padding: 30px;
+}
+
+.container {
+    background-color: #7d5c31;
+    padding: 40px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    width: 45%; /* Adjust width as needed */
+    text-align: center; /* Center text */
+    margin: 20px;
+}
+
+
+.smcontainer {
+    background-color: #8B4513;
+    padding: 30px;
+    width: 50%; /* Adjust width as needed */
+    text-align: center; /* Center text */
+    margin: 0 auto;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    ;
+}
+
+.container-welcome {
+
+    background-color: #F5F5DC;
+    padding: 40px;
+    width: 70%; /* Adjust width as needed */
+    text-align: center; /* Center text */
+    margin: 0 auto;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    ;
+}
+
+input {
+    width: 100%; /* Full width input */
+    padding: 10px; /* Add some padding */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add some border radius */
+    margin: 10px auto; /* Center horizontally with auto margins */
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+    ;
+}
+
+h5 {
+    text-align: center; /* Center text */
+    margin-bottom: 20px; /* Add some space below */
+    font-size: 8px;
+}
+
+button {
+    width: 40%; /* Adjust button width as needed */
+    text-align: center; /* Center text */
+    padding: 20px; /* Adjust button padding as needed */
+    
+}
+
+form.button{
+    padding-top: 10px;
+}
+.btn-secondary {
+    border: 1px solid black; /* Add black border */
+}
+
+.btn-padding {
+    padding: 5px 15px; /* Adjust the padding values according to your preference */
+    margin-right: 5px;
+}
+.text-center{
+    padding-right: 5px;
+}
+
+.employee-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px; /* Adjust spacing between items */
+ 
+    font-size: 24px;
+}
+  
+.employee {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #F5F5DC; /* Optional: adds a border for neatness */
+    background-color: #F5F5DC; /* Optional: background color for each card */
+}
+.product-img {
+    width: 100%;        /* Ensures the image spans the full column width */
+    height: 200px;      /* Pick a height that works well for your layout */
+    object-fit: cover;  /* Crops the image so it fills the area */
+    display: block;     /* Removes any default spacing from inline elements */
+    border-radius: 10px;
+}
