@@ -1,14 +1,14 @@
 # Farmer John's Grocery Store - Employee Management System
 
 ## 🏪 About the Project
-The **Farmer John's Grocery Store Employee Management System** is a web-based solution designed to streamline employee management operations for small grocery stores. The system allows admins to manage employee records, work schedules, salaries, and performance tracking.
+The **Farmer John's Grocery Store Employee Management System** is a web-based solution designed to streamline employee management operations for small grocery stores. The system allows admins to register for a profile, view and update thier profiles, and see all the delicious fruite and veggies in stock.
 
 ## 📌 Features
 - **Employee Registration & Login**: Secure authentication system.
 - **Role-based Access Control**: Admins manage employees; employees access their profiles.
-- **Work Schedule Management**: Assign shifts and track employee work hours.
-- **Payroll System**: View salary breakdowns and payment history.
-- **Performance Tracking**: Monitor attendance and employee ratings.
+- **Profile System**: View personall information including name, phone number, and salary.
+- **Model-View-Controller Pattern**: The MVC architecture was used to implement the login/logout functions along with user registration.
+- **Password Hashing**: All passwords are hashed when user registers for account.
 
 ## 🛠️ Tech Stack
 - **Backend**: PHP (MVC Architecture)
